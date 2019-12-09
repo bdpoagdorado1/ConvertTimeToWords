@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <h1>Convert Time to Words</h1>
+    <div>
+      <span>
+        <label for="hour">Hour (0-12)</label>
+        <input
+          type="input"
+          type="number"
+          minlength="1"
+          maxlength="2"
+          name="hour"
+          value="1"
+          id="hour"
+        />
+      </span>
+      <span>
+        <label for="minutes">Minutes (0-59)</label>
+        <input
+          type="input"
+          type="number"
+          minlength="1"
+          maxlength="2"
+          name="minutes"
+          value="0"
+          id="minutes"
+        />
+      </span>
+      <span>
+        <button type="button" id="submit-time">
+          Convert Time
+        </button>
+        <p id="result">Time in Words:</p>
+      </span>
+    </div>
+  </body>
+</html>

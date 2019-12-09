@@ -1,2 +1,0 @@
-# ConvertTimeToWords
-Created with CodeSandbox
